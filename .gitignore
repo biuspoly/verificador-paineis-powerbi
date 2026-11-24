@@ -1,0 +1,17 @@
+# Credenciais e tokens
+.env
+token.txt
+.token_cache
+
+# Lista real de painéis e resultados
+paineis.csv
+saida/
+*.xlsx
+
+# Python / R
+__pycache__/
+*.pyc
+.venv/
+venv/
+.Rhistory
+*.log

@@ -1,0 +1,22 @@
+{
+  "@odata.context": "https://api.powerbi.com/v1.0/myorg/$metadata#refreshes",
+  "value": [
+    {
+      "requestId": "00000000-0000-0000-0000-000000001004",
+      "id": 9004,
+      "refreshType": "Scheduled",
+      "startTime": "2026-11-24T08:00:01.300Z",
+      "status": "Failed",
+      "endTime": "2026-11-24T10:00:01.300Z",
+      "serviceExceptionJson": "{\"errorCode\": \"ModelRefresh_ShortMessage_ProcessingError\", \"errorDescription\": \"The operation has timed out. ConnectionTimeoutError while querying the source.\"}"
+    },
+    {
+      "requestId": "00000000-0000-0000-0000-000000002004",
+      "id": 8004,
+      "refreshType": "Scheduled",
+      "startTime": "2026-11-23T09:00:00.000Z",
+      "endTime": "2026-11-23T09:05:00.000Z",
+      "status": "Completed"
+    }
+  ]
+}

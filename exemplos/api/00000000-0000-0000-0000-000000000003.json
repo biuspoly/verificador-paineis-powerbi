@@ -1,0 +1,22 @@
+{
+  "@odata.context": "https://api.powerbi.com/v1.0/myorg/$metadata#refreshes",
+  "value": [
+    {
+      "requestId": "00000000-0000-0000-0000-000000001003",
+      "id": 9003,
+      "refreshType": "Scheduled",
+      "startTime": "2026-11-24T08:30:02.010Z",
+      "status": "Failed",
+      "endTime": "2026-11-24T08:31:40.554Z",
+      "serviceExceptionJson": "{\"errorCode\": \"ModelRefresh_ShortMessage_ProcessingError\", \"errorDescription\": \"Data source error: could not read C:\\\\ProgramData\\\\ExemploERP\\\\dmconfig.ini (license limit reached).\"}"
+    },
+    {
+      "requestId": "00000000-0000-0000-0000-000000002003",
+      "id": 8003,
+      "refreshType": "Scheduled",
+      "startTime": "2026-11-23T09:00:00.000Z",
+      "endTime": "2026-11-23T09:05:00.000Z",
+      "status": "Completed"
+    }
+  ]
+}

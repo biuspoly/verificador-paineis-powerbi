@@ -1,0 +1,22 @@
+{
+  "@odata.context": "https://api.powerbi.com/v1.0/myorg/$metadata#refreshes",
+  "value": [
+    {
+      "requestId": "00000000-0000-0000-0000-000000001006",
+      "id": 9006,
+      "refreshType": "Scheduled",
+      "startTime": "2026-11-24T07:45:10.000Z",
+      "status": "Failed",
+      "endTime": "2026-11-24T07:46:02.000Z",
+      "serviceExceptionJson": "{\"errorCode\": \"ModelRefresh_ShortMessage_ProcessingError\", \"errorDescription\": \"The column 'cod_produto' of the table wasn't found in the rowset. The column does not exist in the rowset.\"}"
+    },
+    {
+      "requestId": "00000000-0000-0000-0000-000000002006",
+      "id": 8006,
+      "refreshType": "Scheduled",
+      "startTime": "2026-11-23T09:00:00.000Z",
+      "endTime": "2026-11-23T09:05:00.000Z",
+      "status": "Completed"
+    }
+  ]
+}

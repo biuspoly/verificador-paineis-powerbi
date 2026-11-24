@@ -1,0 +1,21 @@
+{
+  "@odata.context": "https://api.powerbi.com/v1.0/myorg/$metadata#refreshes",
+  "value": [
+    {
+      "requestId": "00000000-0000-0000-0000-000000001009",
+      "id": 9009,
+      "refreshType": "Scheduled",
+      "startTime": "2026-11-23T22:00:00.000Z",
+      "status": "Completed",
+      "endTime": "2026-11-23T22:03:10.000Z"
+    },
+    {
+      "requestId": "00000000-0000-0000-0000-000000002009",
+      "id": 8009,
+      "refreshType": "Scheduled",
+      "startTime": "2026-11-23T09:00:00.000Z",
+      "endTime": "2026-11-23T09:05:00.000Z",
+      "status": "Completed"
+    }
+  ]
+}

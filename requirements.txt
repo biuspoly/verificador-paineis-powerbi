@@ -1,0 +1,2 @@
+# Necessário apenas no modo real (o modo demonstração usa só a biblioteca padrão)
+requests>=2.31
