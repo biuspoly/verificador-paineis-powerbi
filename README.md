@@ -152,3 +152,7 @@ A versão original eram três scripts separados (verificação, disparo de
 atualização e obtenção do token) que gravavam o resultado em um banco MySQL.
 Esta versão junta tudo em um único módulo com funções reutilizáveis, obtém o
 token pelo fluxo oficial de service principal e grava o resultado em CSV.
+
+## Autoria
+
+Desenvolvido por **[biuspoly](https://github.com/biuspoly)**, com ajuda do Claude (Anthropic).
